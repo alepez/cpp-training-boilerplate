@@ -9,3 +9,4 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(spdlog)
 
 target_compile_definitions(spdlog PUBLIC SPDLOG_FMT_EXTERNAL)
+target_link_libraries(spdlog PRIVATE fmt::fmt)

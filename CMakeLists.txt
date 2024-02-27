@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
+cmake_policy(SET CMP0077 NEW)
+cmake_policy(SET CMP0079 NEW)
 
 project(cpp_training_boilerplate
         VERSION 0.1.0
