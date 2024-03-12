@@ -1,6 +1,3 @@
-# C++ Training: Strong Password
+# C++ Training Boilerplate
 
 Nothing to see here, just an empty project.
-
-Based on https://github.com/alepez/yacppbp
-
